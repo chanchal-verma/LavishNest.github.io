@@ -238,8 +238,19 @@ margin-top: 27px;
   .modal{
     width: 95vw;
   }
+  .spinner{
+    width: 7rem!important;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
 } 
-
+@media (max-width:500px)
+{
+    .form-control{
+      width: 81vw!important;
+    }
+}
 
 /* css for sign-up form */
 #signup-form{
